@@ -1,0 +1,37 @@
+@import './styles/variables.css';
+
+html, body, #root, .app-container {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family, sans-serif);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  box-sizing: border-box;
+  transition: background-color 0.3s, color 0.3s;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: var(--card-bg);
+  padding: 1rem 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: var(--primary-color);
+}
+
+h3, h4 {
+  color: var(--title-color);
+}

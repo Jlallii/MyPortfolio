@@ -1,0 +1,43 @@
+.game-container {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: var(--game-bg);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.options button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  transition: background-color 0.2s ease;
+}
+
+.options button:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.result {
+  font-size: 1.2rem;
+}
+.result button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}

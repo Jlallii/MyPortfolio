@@ -1,0 +1,42 @@
+#widgets {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 4rem 0;
+
+}
+
+#widgets .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.widgets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.widget-card {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: left;
+}
+
+.widget-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.widget-card h3 {
+  margin-top: 0;
+}
+
+.widget-card p {
+  margin: 0.5rem 0 0;
+  line-height: 1.5;
+}
