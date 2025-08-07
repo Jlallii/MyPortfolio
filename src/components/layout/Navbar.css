@@ -50,3 +50,41 @@
   text-decoration: none;
 }
 
+.menu-icon {
+  display: none;
+  font-size: 1.5rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: var(--card-bg);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-inner {
+    padding: 1rem;
+  }
+
+  .nav-links li {
+    padding: 0.5rem 0;
+  }
+}
