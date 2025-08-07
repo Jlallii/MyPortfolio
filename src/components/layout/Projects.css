@@ -1,6 +1,7 @@
 .projects-section {
   padding: 4rem 0;
   background-color: var(--background-color);
+  scroll-margin-top: 80px;
 }
 
 .projects-grid {

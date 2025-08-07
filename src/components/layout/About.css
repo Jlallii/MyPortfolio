@@ -9,6 +9,7 @@
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, color 0.3s;
     color: var(--text-color);
+    scroll-margin-top: 80px;
 }
 
 
