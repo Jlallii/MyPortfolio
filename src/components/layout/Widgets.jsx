@@ -17,10 +17,11 @@ export default function Widgets() {
             <h3>Theme Customizer</h3>
             <ThemeLab />
           </div>
-          <div className="widget-card">
+          {/* Uncomment to enable the chat widget */}
+          {/*<div className="widget-card">
             <h3>“Tech AI Advisor” Chat Widget</h3>
             <ChatWidget/>
-          </div>
+          </div>*/}
         </div>
       </div>
     </section>
