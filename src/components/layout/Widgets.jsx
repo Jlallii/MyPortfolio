@@ -1,7 +1,7 @@
 import ChatWidget from '../sections/ChatWidget';
 import TechStackGame from '../sections/TechStackGame';
 import ThemeLab from '../sections/ThemeLab';
-import './widgets.css';
+import './Widgets.css';
 
 export default function Widgets() {
   return (
